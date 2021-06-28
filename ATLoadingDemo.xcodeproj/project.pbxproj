@@ -20,7 +20,7 @@
 		186D17F926897568003AC5DE /* UIView+ATViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17E926897568003AC5DE /* UIView+ATViewExtension.m */; };
 		186D17FA26897568003AC5DE /* ATLoadingSimpleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17ED26897568003AC5DE /* ATLoadingSimpleConfig.m */; };
 		186D17FB26897568003AC5DE /* ATLoadingSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17EE26897568003AC5DE /* ATLoadingSimpleView.m */; };
-		186D17FC26897568003AC5DE /* ATLoadingView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186D17F426897568003AC5DE /* ATLoadingView.bundle */; };
+		186D17FC26897568003AC5DE /* ATLoading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186D17F426897568003AC5DE /* ATLoading.bundle */; };
 		186D17FD26897568003AC5DE /* ATViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17F526897568003AC5DE /* ATViewObject.m */; };
 		186D17FE26897568003AC5DE /* ATLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17F626897568003AC5DE /* ATLoadingView.m */; };
 		186D1802268975B1003AC5DE /* new_pics_no_follow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D1800268975B0003AC5DE /* new_pics_no_follow@3x.png */; };
@@ -53,7 +53,7 @@
 		186D17F026897568003AC5DE /* ATLoadingSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLoadingSimpleView.h; sourceTree = "<group>"; };
 		186D17F126897568003AC5DE /* ATViewLoadingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATViewLoadingConfig.h; sourceTree = "<group>"; };
 		186D17F226897568003AC5DE /* ATLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLoadingView.h; sourceTree = "<group>"; };
-		186D17F426897568003AC5DE /* ATLoadingView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATLoadingView.bundle; sourceTree = "<group>"; };
+		186D17F426897568003AC5DE /* ATLoading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATLoading.bundle; sourceTree = "<group>"; };
 		186D17F526897568003AC5DE /* ATViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATViewObject.m; sourceTree = "<group>"; };
 		186D17F626897568003AC5DE /* ATLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLoadingView.m; sourceTree = "<group>"; };
 		186D1800268975B0003AC5DE /* new_pics_no_follow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_pics_no_follow@3x.png"; sourceTree = "<group>"; };
@@ -154,10 +154,10 @@
 		186D17EC26897568003AC5DE /* Simple */ = {
 			isa = PBXGroup;
 			children = (
-				186D17ED26897568003AC5DE /* ATLoadingSimpleConfig.m */,
-				186D17EE26897568003AC5DE /* ATLoadingSimpleView.m */,
 				186D17EF26897568003AC5DE /* ATLoadingSimpleConfig.h */,
+				186D17ED26897568003AC5DE /* ATLoadingSimpleConfig.m */,
 				186D17F026897568003AC5DE /* ATLoadingSimpleView.h */,
+				186D17EE26897568003AC5DE /* ATLoadingSimpleView.m */,
 			);
 			path = Simple;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 		186D17F326897568003AC5DE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				186D17F426897568003AC5DE /* ATLoadingView.bundle */,
+				186D17F426897568003AC5DE /* ATLoading.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 				186D1803268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png in Resources */,
 				186D1802268975B1003AC5DE /* new_pics_no_follow@3x.png in Resources */,
 				186D17D126897406003AC5DE /* Assets.xcassets in Resources */,
-				186D17FC26897568003AC5DE /* ATLoadingView.bundle in Resources */,
+				186D17FC26897568003AC5DE /* ATLoading.bundle in Resources */,
 				186D17CF26897404003AC5DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
