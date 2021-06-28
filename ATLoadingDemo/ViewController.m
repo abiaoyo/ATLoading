@@ -48,7 +48,6 @@
     self.tableView.atView.config.reLayoutConfigBlock = ^(UIView *superView, ATLoadingView *atLoadingView, id<ATViewLoadingConfigInterface> atLoadingConfig) {
         ATLoadingSimpleConfig * simpleConfig = (ATLoadingSimpleConfig *)atLoadingConfig;
 
-        simpleConfig.errorImage = @"page_empty_def";
         simpleConfig.noNetworkImage = @"new_public_pics_icon_wifi_un";
         simpleConfig.emptyImage = @"new_pics_no_follow";
 
