@@ -112,8 +112,8 @@
 //MARK: Getter
 - (UIActivityIndicatorView *)activityView{
     if(!_activityView){
-        UIActivityIndicatorView * v = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
-        v.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhiteLarge;
+        UIActivityIndicatorView * v = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        v.frame = CGRectMake(0, 0, 80, 80);
         v.color = [UIColor grayColor];
         v.hidesWhenStopped = YES;
         v.tag = 2000;

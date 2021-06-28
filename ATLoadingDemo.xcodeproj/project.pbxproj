@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D74AF48FF74234FFA36DD55 /* libPods-ATLoadingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9DD930E289A45E3406ABA /* libPods-ATLoadingDemo.a */; };
 		186D17C626897404003AC5DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17C526897404003AC5DE /* AppDelegate.m */; };
-		186D17C926897404003AC5DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17C826897404003AC5DE /* SceneDelegate.m */; };
 		186D17CC26897404003AC5DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17CB26897404003AC5DE /* ViewController.m */; };
 		186D17CF26897404003AC5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186D17CD26897404003AC5DE /* Main.storyboard */; };
 		186D17D126897406003AC5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186D17D026897406003AC5DE /* Assets.xcassets */; };
@@ -31,8 +30,6 @@
 		186D17C126897404003AC5DE /* ATLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186D17C426897404003AC5DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186D17C526897404003AC5DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		186D17C726897404003AC5DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		186D17C826897404003AC5DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		186D17CA26897404003AC5DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		186D17CB26897404003AC5DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		186D17CE26897404003AC5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,8 +115,6 @@
 				186D1801268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png */,
 				186D17C426897404003AC5DE /* AppDelegate.h */,
 				186D17C526897404003AC5DE /* AppDelegate.m */,
-				186D17C726897404003AC5DE /* SceneDelegate.h */,
-				186D17C826897404003AC5DE /* SceneDelegate.m */,
 				186D17CA26897404003AC5DE /* ViewController.h */,
 				186D17CB26897404003AC5DE /* ViewController.m */,
 				186D17CD26897404003AC5DE /* Main.storyboard */,
@@ -291,7 +286,6 @@
 				186D17D726897406003AC5DE /* main.m in Sources */,
 				186D17FB26897568003AC5DE /* ATLoadingSimpleView.m in Sources */,
 				186D17F826897568003AC5DE /* ATViewConfig.m in Sources */,
-				186D17C926897404003AC5DE /* SceneDelegate.m in Sources */,
 				186D17FE26897568003AC5DE /* ATLoadingView.m in Sources */,
 				186D17FA26897568003AC5DE /* ATLoadingSimpleConfig.m in Sources */,
 				186D17F926897568003AC5DE /* UIView+ATViewExtension.m in Sources */,
