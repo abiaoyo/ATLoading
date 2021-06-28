@@ -14,7 +14,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ATLoading/*'
+  s.source_files = 'ATLoading/**/*.{h,m}'
   s.resource     = "ATLoading/Resources/ATLoading.bundle"
 
   s.requires_arc = true
