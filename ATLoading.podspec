@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ATLoading'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'ATLoading 用于处理视图加载状态(加载，结束，空，错误，无网络)，便于使用和自定义扩展'
 
   s.description      = <<-DESC

@@ -302,10 +302,6 @@
     [self atLoading_SaveDataSourceWithScrollEnable:scrollEnable];
     [self atLoading_AddView];
     [self.atLoadingView beginLoading];
-    
-    if(self.atLoadingView.onLoadingBlock){
-        self.atLoadingView.onLoadingBlock();
-    }
 }
 - (void)error:(BOOL)scrollEnable{
     [self atLoading_CreateView];
