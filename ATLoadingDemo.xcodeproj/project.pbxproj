@@ -19,11 +19,11 @@
 		186D17F926897568003AC5DE /* UIView+ATViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17E926897568003AC5DE /* UIView+ATViewExtension.m */; };
 		186D17FA26897568003AC5DE /* ATLoadingSimpleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17ED26897568003AC5DE /* ATLoadingSimpleConfig.m */; };
 		186D17FB26897568003AC5DE /* ATLoadingSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17EE26897568003AC5DE /* ATLoadingSimpleView.m */; };
-		186D17FC26897568003AC5DE /* ATLoading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186D17F426897568003AC5DE /* ATLoading.bundle */; };
 		186D17FD26897568003AC5DE /* ATViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17F526897568003AC5DE /* ATViewObject.m */; };
 		186D17FE26897568003AC5DE /* ATLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D17F626897568003AC5DE /* ATLoadingView.m */; };
 		186D1802268975B1003AC5DE /* new_pics_no_follow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D1800268975B0003AC5DE /* new_pics_no_follow@3x.png */; };
 		186D1803268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D1801268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png */; };
+		186D181D268985A6003AC5DE /* page_empty_def@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D1813268984AA003AC5DE /* page_empty_def@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,11 +50,11 @@
 		186D17F026897568003AC5DE /* ATLoadingSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLoadingSimpleView.h; sourceTree = "<group>"; };
 		186D17F126897568003AC5DE /* ATViewLoadingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATViewLoadingConfig.h; sourceTree = "<group>"; };
 		186D17F226897568003AC5DE /* ATLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLoadingView.h; sourceTree = "<group>"; };
-		186D17F426897568003AC5DE /* ATLoading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ATLoading.bundle; sourceTree = "<group>"; };
 		186D17F526897568003AC5DE /* ATViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATViewObject.m; sourceTree = "<group>"; };
 		186D17F626897568003AC5DE /* ATLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLoadingView.m; sourceTree = "<group>"; };
 		186D1800268975B0003AC5DE /* new_pics_no_follow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_pics_no_follow@3x.png"; sourceTree = "<group>"; };
 		186D1801268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_public_pics_icon_wifi_un@3x.png"; sourceTree = "<group>"; };
+		186D1813268984AA003AC5DE /* page_empty_def@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_empty_def@3x.png"; sourceTree = "<group>"; };
 		366F9C81129F5FB7C1DA55CC /* Pods-ATLoadingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLoadingDemo.debug.xcconfig"; path = "Target Support Files/Pods-ATLoadingDemo/Pods-ATLoadingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		87F9DD930E289A45E3406ABA /* libPods-ATLoadingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATLoadingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B79AA8F52A760DFFC2DF48 /* Pods-ATLoadingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATLoadingDemo.release.xcconfig"; path = "Target Support Files/Pods-ATLoadingDemo/Pods-ATLoadingDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +111,8 @@
 		186D17C326897404003AC5DE /* ATLoadingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186D17EC26897568003AC5DE /* Simple */,
+				186D1813268984AA003AC5DE /* page_empty_def@3x.png */,
 				186D1800268975B0003AC5DE /* new_pics_no_follow@3x.png */,
 				186D1801268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png */,
 				186D17C426897404003AC5DE /* AppDelegate.h */,
@@ -138,8 +140,6 @@
 				186D17E726897567003AC5DE /* ATViewLoadingConfig.m */,
 				186D17EB26897568003AC5DE /* ATViewObject.h */,
 				186D17F526897568003AC5DE /* ATViewObject.m */,
-				186D17F326897568003AC5DE /* Resources */,
-				186D17EC26897568003AC5DE /* Simple */,
 				186D17E526897567003AC5DE /* UIView+ATViewExtension.h */,
 				186D17E926897568003AC5DE /* UIView+ATViewExtension.m */,
 			);
@@ -155,14 +155,6 @@
 				186D17EE26897568003AC5DE /* ATLoadingSimpleView.m */,
 			);
 			path = Simple;
-			sourceTree = "<group>";
-		};
-		186D17F326897568003AC5DE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				186D17F426897568003AC5DE /* ATLoading.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,11 +215,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186D181D268985A6003AC5DE /* page_empty_def@3x.png in Resources */,
 				186D17D426897406003AC5DE /* LaunchScreen.storyboard in Resources */,
 				186D1803268975B1003AC5DE /* new_public_pics_icon_wifi_un@3x.png in Resources */,
 				186D1802268975B1003AC5DE /* new_pics_no_follow@3x.png in Resources */,
 				186D17D126897406003AC5DE /* Assets.xcassets in Resources */,
-				186D17FC26897568003AC5DE /* ATLoading.bundle in Resources */,
 				186D17CF26897404003AC5DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
