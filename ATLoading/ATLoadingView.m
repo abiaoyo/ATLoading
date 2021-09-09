@@ -52,4 +52,17 @@
     _state = ATViewStateNoNetwork;
 }
 
+- (void)beginLoading:(BOOL)scrollEnabled{
+    [self beginLoading];
+}
+- (void)empty:(BOOL)scrollEnabled{
+    [self empty];
+}
+- (void)error:(BOOL)scrollEnabled{
+    [self error];
+}
+- (void)noNetwork:(BOOL)scrollEnabled{
+    [self noNetwork];
+}
+
 @end

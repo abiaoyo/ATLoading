@@ -78,7 +78,7 @@
     [self.tableView.atView empty];
 }
 - (IBAction)clickNoNetwork:(id)sender {
-    [self.tableView.atView noNetwork];
+    [self.tableView.atView noNetwork:NO];
 }
 
 #pragma mark - UITableViewDelegate/UITableViewDataSource

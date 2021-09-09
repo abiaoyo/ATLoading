@@ -35,6 +35,11 @@ typedef NS_ENUM(NSUInteger, ATViewState) {
 - (void)empty;
 - (void)error;
 - (void)noNetwork;
+
+- (void)beginLoading:(BOOL)scrollEnabled;
+- (void)empty:(BOOL)scrollEnabled;
+- (void)error:(BOOL)scrollEnabled;
+- (void)noNetwork:(BOOL)scrollEnabled;
 @end
 
 @class ATLoadingView;
